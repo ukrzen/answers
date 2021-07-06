@@ -306,11 +306,12 @@ footer a:hover{
 
 
 
+
 }
 .s-b a {
     -webkit-filter: saturate(10%);
     transition: all ease 0.5s;
-    opacity:0.9;
+    opacity:0.5;
 }
 @media screen and (max-width: 940px){
     .footer-main
