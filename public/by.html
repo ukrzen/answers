@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html >
+<meta charset="UTF-8"/>
+<head>
+    <title>Магічны шар</title>
+    <link rel="manifest" href="mobile.json">
+    <meta http-equiv=”x-ua-compatible” content=”IE=edge” />
+    <meta name="Description" content="Магічны шар"/>
+    <meta name="Keywords" content="Магічны шар"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Магічны шар"/>
+    <meta property="og:description" content="Магічны шар"/>
+    <meta property="og:url" content="https://answers.ukrzen.in.ua/by"/>
+    <meta property="og:image" content="https://answers.ukrzen.in.ua/images/preview.by.jpg"/>
+    <meta property="og:image:type" content="image/jpg"/>
+    <meta property="og:image:width" content="1624"/>
+    <meta property="og:image:height" content="896"/>
+    <meta property="og:site_name" content="Magic ball"/>
+    <meta name="twitter:card" content="Магічны шар"/>
+    <meta name="twitter:title" content="Магічны шар"/>
+    <meta name="twitter:description" content="Магічны шар"/>
+    <meta name="twitter:image:src" content="https://answers.ukrzen.in.ua/images/logo.png"/>
+    <meta name="twitter:domain" content="https://answers.ukrzen.in.ua/by"/>
+    <link rel="alternate" hreflang="en" href="https://answers.ukrzen.in.ua/en" />
+    <link rel="alternate" hreflang="by" href="https://answers.ukrzen.in.ua/by" />
+    <link rel="alternate" hreflang="ua" href="https://answers.ukrzen.in.ua/" />
+    <link href='/css/magic.css' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" type="image/png" href="/images/logo-48x48.png" />
+    <link rel="icon" type="image/png" sizes="36x36" href="/images/logo-36x36.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48x48.png" />
+    <link rel="icon" type="image/png" sizes="128x128" href="/images/logo-128x128.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/logo-144x144.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/images/logo.png" />
+
+    <!-- iPhone -->
+    <link href="/images/startup/apple-touch-startup-image-320x460.png"
+          media="(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) -->
+    <link href="/images/startup/apple-touch-startup-image-640x920.png"
+          media="(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iPhone 5 -->
+    <link href="/images/startup/apple-touch-startup-image-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+         and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iPad (portrait) -->
+    <link href="/images/startup/apple-touch-startup-image-768x1004.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina, portrait) -->
+    <link href="/images/startup/apple-touch-startup-image-1536x2008.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 8 iPhone 6 (portrait) -->
+    <link rel="apple-touch-startup-image" href="/images/startup/apple-touch-startup-image-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+    <!-- iOS 8 iPhone 6 Plus (portrait) -->
+    <link rel="apple-touch-startup-image" href="/images/startup/apple-touch-startup-image-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)">
+
+
+
+    <meta name="apple-mobile-web-app-title" content="Магічны шар">
+    <link rel="apple-touch-icon" href="images/logo.png"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+<canvas id="myCanvas"></canvas>
+<header class="languages">
+    <a class="uk" href="/" title="Українська мова"><img src="images/flag_ua.jpg"></a>
+    <a class="by" href="/by" title="Беларуская"><img src="images/flag_by.jpg"></a>
+    <a class="us" href="/en" title="English"><img src="images/flag_us.jpg"></a>
+</header>
+<div class="page">
+    <div class="answer-container">
+        <div class="answer new">
+
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+
+</div>
+
+<div class="emailBlock">
+    <a class='email' href="mailto:h.ukrzen+answers@gmail.com" target="_blank">h.ukrzen@gmail.com</a>
+    <a href="https://twitter.com/ukrzen" class="twitter-follow-button email" data-show-count="false" ></a>
+    <a href="https://www.facebook.com/pages/Ukrzen-In-Ua/643709062402196" target="_blank" class="fb-button email" data-show-count="false" ></a>
+
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/magic.min.js?v=2"></script>
+<link href='https://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+    ga('create', 'UA-57748128-2', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('require', 'displayfeatures');
+    ga('linker:autoLink', ['answers.ukrzen.in.ua']);
+    ga('send', 'pageview');
+
+</script>
+
+</html>
