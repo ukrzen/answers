@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html >
+<meta charset="UTF-8"/>
+<head>
+    <title>Магічна куля</title>
+    <link rel="manifest" href="mobile.json">
+    <meta http-equiv=”x-ua-compatible” content=”IE=edge” />
+<!--    <meta name="Description" content="Вирішимо всі ваші питання."/>-->
+<!--    <meta name="Keywords" content="магічна куля, відповіді, магія, magicball"/>-->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Як воно буде?"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://answers.ukrzen.in.ua/"/>
+    <meta property="og:image" content="https://answers.ukrzen.in.ua/images/pt.jpg"/>
+    <meta property="og:image:type" content="image/jpg"/>
+    <meta property="og:image:width" content="1624"/>
+    <meta property="og:image:height" content="896"/>
+    <meta property="og:site_name" content="Як воно буде?"/>
+    <meta name="twitter:card" content=""/>
+    <meta name="twitter:title" content="Як воно буде?"/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:image:src" content="https://answers.ukrzen.in.ua/images/logo.png"/>
+    <meta name="twitter:domain" content="https://answers.ukrzen.in.ua/"/>
+    <meta name="google-site-verification" content="WWcA6_iXle1pSwulEJiLTToC4XN4H8s4YWrFSfMe59o" />
+    <link href='css/magic.css' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" type="image/png" href="images/logo-48x48.png" />
+    <link rel="icon" type="image/png" sizes="36x36" href="images/logo-36x36.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="images/logo-48x48.png" />
+    <link rel="icon" type="image/png" sizes="128x128" href="images/logo-128x128.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="images/logo-144x144.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="images/logo.png" />
+
+    <!-- iPhone -->
+    <link href="images/startup/apple-touch-startup-image-320x460.png"
+          media="(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) -->
+    <link href="images/startup/apple-touch-startup-image-640x920.png"
+          media="(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iPhone 5 -->
+    <link href="images/startup/apple-touch-startup-image-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+         and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iPad (portrait) -->
+    <link href="images/startup/apple-touch-startup-image-768x1004.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina, portrait) -->
+    <link href="images/startup/apple-touch-startup-image-1536x2008.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <!-- iOS 8 iPhone 6 (portrait) -->
+    <link rel="apple-touch-startup-image" href="images/startup/apple-touch-startup-image-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+    <!-- iOS 8 iPhone 6 Plus (portrait) -->
+    <link rel="apple-touch-startup-image" href="images/startup/apple-touch-startup-image-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)">
+
+
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js"></script>
+    <![endif]-->
+
+
+
+    <meta name="apple-mobile-web-app-title" content="Магічна куля">
+    <link rel="apple-touch-icon" href="images/logo.png"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+<canvas id="myCanvas"></canvas>
+
+<div class="page">
+    <div class="answer-container">
+        <div class="answer new">
+
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+
+</div>
+
+
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/magic.custom.min.js?v=7"></script>
+<script src="js/magic.min.js?v=5"></script>
+<link href='//fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+    ga('create', 'UA-57748128-2', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('require', 'displayfeatures');
+    ga('linker:autoLink', ['answers.ukrzen.in.ua']);
+    ga('send', 'pageview');
+
+</script>
+
+</html>
